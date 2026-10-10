@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>À propos | Re-Imagine FabLab Solidaire</title>
+  <meta name="description" content="Re-Imagine est un FabLab solidaire à l'ENISO, né d'une collaboration entre Orange et JEENISo. Découvrez notre mission et notre fonctionnement.">
+  <meta name="theme-color" content="#0B2545">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Re-Imagine – FabLab Solidaire">
+  <meta property="og:title" content="À propos | Re-Imagine FabLab Solidaire">
+  <meta property="og:description" content="Un FabLab solidaire à l'ENISO, en collaboration avec Orange et JEENISo.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero">
+      <div class="container">
+        <p class="kicker" data-i18n="about.hero.kicker"></p>
+        <h1 data-i18n="about.hero.title"></h1>
+        <p data-i18n="about.hero.lead"></p>
+      </div>
+    </section>
+
+    <!-- WHAT / MISSION / PARTNERS -->
+    <section class="section">
+      <div class="container split">
+        <div class="split-photo reveal">
+          <img src="assets/img/lab/team.webp"
+               srcset="assets/img/lab/team-sm.webp 720w, assets/img/lab/team.webp 1280w"
+               sizes="(min-width: 900px) 50vw, 100vw" width="1280" height="960" loading="lazy"
+               alt="" data-i18n-attr="alt:about.photoAlt">
+        </div>
+        <div class="prose reveal">
+          <h2 data-i18n="about.what.title"></h2>
+          <p data-i18n="about.what.text"></p>
+          <h2 data-i18n="about.mission.title"></h2>
+          <p data-i18n="about.mission.text"></p>
+          <h2 data-i18n="about.partners.title"></h2>
+          <p data-i18n="about.partners.text"></p>
+          <p class="small-label" data-i18n="label.partnersLine"></p>
+          <div class="partners-about" data-render="partners"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO IS IT FOR -->
+    <section class="section section-soft" aria-labelledby="who-title">
+      <div class="container">
+        <div class="section-head center">
+          <p class="kicker" data-i18n="about.who.kicker"></p>
+          <h2 id="who-title" data-i18n="about.who.title"></h2>
+          <p data-i18n="about.who.lead"></p>
+        </div>
+        <div class="grid grid-4" data-render="audience"></div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-head center">
+          <p class="kicker" data-i18n="about.how.kicker"></p>
+          <h2 id="how-title" data-i18n="about.how.title"></h2>
+        </div>
+        <ol class="steps" data-render="steps"></ol>
+        <div class="section-foot center">
+          <p class="info-strip"><span data-icon="clock"></span><span data-i18n="label.hours"></span> : <span data-render="hours"></span></p>
+        </div>
+        <div class="section-foot center">
+          <a class="btn btn-primary btn-lg" href="quote.html" data-i18n="cta.quote"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <noscript><p style="padding:16px;text-align:center">Activez JavaScript pour afficher ce site. / Please enable JavaScript to view this site.</p></noscript>
+  <script src="js/content.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
