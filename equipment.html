@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Équipements | Re-Imagine FabLab Solidaire</title>
+  <meta name="description" content="Découpeuse laser CO2, imprimante 3D Creality CR-5 Pro, machine CNC et casques Meta Quest 2 disponibles au FabLab Re-Imagine.">
+  <meta name="theme-color" content="#0B2545">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Re-Imagine – FabLab Solidaire">
+  <meta property="og:title" content="Équipements | Re-Imagine FabLab Solidaire">
+  <meta property="og:description" content="Laser CO2, impression 3D, CNC et réalité virtuelle à l'ENISO, Sousse.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="equipment">
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero">
+      <div class="container">
+        <p class="kicker" data-i18n="equipment.hero.kicker"></p>
+        <h1 data-i18n="equipment.hero.title"></h1>
+        <p data-i18n="equipment.hero.lead"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <!-- Filter buttons are built from DATA.machineCategories -->
+        <div class="filters" role="group" data-i18n-attr="aria-label:equipment.filter.label" data-render="machine-filters"></div>
+        <p class="filter-count" aria-live="polite" data-render="machine-count"></p>
+        <div class="grid grid-4" data-render="machines-all"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <noscript><p style="padding:16px;text-align:center">Activez JavaScript pour afficher ce site. / Please enable JavaScript to view this site.</p></noscript>
+  <script src="js/content.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

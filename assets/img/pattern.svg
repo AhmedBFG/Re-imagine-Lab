@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <!-- Decorative low-poly accent echoing the logo's geometric half -->
+  <polygon points="300,40 420,110 340,200" fill="#F5B800" opacity=".9"/>
+  <polygon points="420,110 540,90 500,230" fill="#5CC8C8" opacity=".85"/>
+  <polygon points="340,200 420,110 500,230" fill="#1F5F99" opacity=".85"/>
+  <polygon points="500,230 560,330 430,320" fill="#F59E0B" opacity=".8"/>
+  <polygon points="340,200 500,230 430,320" fill="#0B2545" opacity=".9"/>
+  <polygon points="430,320 560,330 480,450" fill="#5CC8C8" opacity=".7"/>
+  <polygon points="340,200 430,320 320,360" fill="#5CC8C8" opacity=".55"/>
+  <polygon points="320,360 430,320 480,450" fill="#F5B800" opacity=".7"/>
+  <polygon points="320,360 480,450 380,540" fill="#1F5F99" opacity=".55"/>
+  <g fill="#0B2545"><circle cx="560" cy="40" r="14"/><circle cx="585" cy="12" r="8"/></g>
+</svg>
